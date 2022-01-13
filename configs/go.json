@@ -9,7 +9,10 @@
       ".github/workflows/tagpush.yml"
     ],
     "deploy_versioning": true,
-    "deploy_go": true
+    "deploy_go": true,
+    "go": {
+      "versions": [ "1.16.x", "1.17.x" ]
+    }
   },
   "repositories": [
     { "target": "filecoin-project/go-amt-ipld" },
